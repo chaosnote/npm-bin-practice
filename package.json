@@ -7,6 +7,7 @@
     "md5": "bin/md5.js"
   },
   "scripts": {
+    "start": "node bin/md5.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,6 +22,6 @@
   },
   "homepage": "https://github.com/chaosnote/npm-bin-practice#readme",
   "dependencies": {
-    
+    "shelljs": "^0.8.1"
   }
 }
